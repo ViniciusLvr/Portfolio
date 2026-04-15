@@ -1,9 +1,9 @@
-import { projects } from '../data/projects'
-import ProjectCard from './ProjectCard'
+import { projects } from "../data/projects";
+import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
-    <section className="section" id="projetos">
+    <section className="section section--accent" id="projetos">
       <div className="section__inner">
         <div className="section__header">
           <h2>Projetos</h2>
@@ -20,5 +20,5 @@ export default function Projects() {
         </div>
       </div>
     </section>
-  )
+  );
 }

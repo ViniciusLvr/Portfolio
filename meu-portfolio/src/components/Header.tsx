@@ -1,35 +1,34 @@
-import profile from '../assets/profile.svg'
+import profile from "../assets/pfp.jpg";
 
 const SOCIAL_LINKS = [
   {
-    label: 'GitHub',
-    href: 'https://github.com/seu-usuario',
+    label: "GitHub",
+    href: "https://github.com/ViniciusLvr",
   },
   {
-    label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/seu-perfil',
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/vinicius-santos-de-oliveira-566746308/",
   },
-]
+];
 
 export default function Header() {
   return (
-    <header className="header" id="inicio">
+    <header className="header section--accent" id="inicio">
       <div className="header__inner">
         <div className="header__profile">
           <img src={profile} alt="Foto de perfil" className="header__avatar" />
         </div>
 
         <div className="header__content">
-          <h1 className="header__title">Seu Nome</h1>
+          <h1 className="header__title">Vinicius Santos de Oliveira</h1>
           <p className="header__subtitle">
-            Desenvolvedor(a) full-stack em formação, criando interfaces criativas com
-            um estilo retrofuturista.
+            Desenvolvedor full-stack em formação.
           </p>
 
           <div className="header__buttons">
             <a
               className="button button--primary"
-              href="mailto:seu@email.com"
+              href="mailto:viniciusvso72@gmail.com"
               target="_blank"
               rel="noreferrer"
             >
@@ -37,7 +36,7 @@ export default function Header() {
             </a>
             <a
               className="button button--secondary"
-              href="https://wa.me/5591999999999"
+              href="https://wa.me/559284055907"
               target="_blank"
               rel="noreferrer"
             >
@@ -70,5 +69,5 @@ export default function Header() {
         </a>
       </nav>
     </header>
-  )
+  );
 }

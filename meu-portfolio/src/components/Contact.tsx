@@ -12,26 +12,26 @@ export default function Contact() {
 
         <div className="contact-grid">
           <a
-            href="mailto:seu@email.com"
+            href="mailto:viniciusvso72@gmail.com"
             className="contact-card"
             target="_blank"
             rel="noreferrer"
           >
             <h3>Email</h3>
-            <p>seu@email.com</p>
+            <p>viniciusvso72@gmail.com</p>
           </a>
 
           <a
-            href="https://wa.me/5591999999999"
+            href="https://wa.me/559284055907"
             className="contact-card"
             target="_blank"
             rel="noreferrer"
           >
             <h3>WhatsApp</h3>
-            <p>+55 91 99999-9999</p>
+            <p>+55 92 8405-5907</p>
           </a>
         </div>
       </div>
     </section>
-  )
+  );
 }

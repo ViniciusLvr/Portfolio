@@ -1,38 +1,30 @@
 export type Project = {
-  id: string
-  title: string
-  description: string
-  technologies: string[]
-  demoUrl?: string
-  codeUrl?: string
-  comingSoon?: boolean
-  image?: string
-}
+  id: string;
+  title: string;
+  description: string;
+  technologies: string[];
+  demoUrl?: string;
+  codeUrl?: string;
+  comingSoon?: boolean;
+  image?: string;
+};
 
 export const projects: Project[] = [
   {
-    id: 'portfolio',
-    title: 'Portfólio Pessoal',
+    id: "portfolio",
+    title: "Portfólio Pessoal",
     description:
-      'Este site! Um portfólio em React com estilo retrofuturista inspirado em EVA‑01 (roxo + verde).',
-    technologies: ['React', 'Vite', 'TypeScript', 'CSS'],
-    codeUrl: 'https://github.com/seu-usuario/meu-portfolio',
+      "Este site! Um portfólio em React com cores inspirado no EVA‑01 (roxo + verde).",
+    technologies: ["React", "Vite", "TypeScript", "CSS"],
+    codeUrl: "https://github.com/ViniciusLvr/Portfolio",
     comingSoon: false,
   },
   {
-    id: 'todo',
-    title: 'App de Tarefas',
+    id: "blog",
+    title: "Blog de games",
     description:
-      'Um aplicativo simples de lista de tarefas com persistência local e filtros.',
-    technologies: ['React', 'TypeScript', 'Local Storage'],
+      "Um blog simples onde quero postar opniões e comentar sobre jogos que ando jogando, filmes, animes e talvez algumas series. Coisa bem intima e pessoal que quero criar na marra ao inves de usar alguma outra plataforma focada no mesmo objetivo.",
+    technologies: ["React"],
     comingSoon: true,
   },
-  {
-    id: 'blog',
-    title: 'Blog Retro',
-    description:
-      'Um blog estilizado com tema retrô e navegação entre posts.',
-    technologies: ['React', 'Markdown', 'CSS Animations'],
-    comingSoon: true,
-  },
-]
+];
