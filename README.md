@@ -41,7 +41,3 @@ npm run build
 - O projeto é leve e não usa bibliotecas extras além do React
 - O visual é focado em contraste e leitura, sem muita complexidade
 - Ideal para mostrar trabalho, projetos e contatos de forma direta
-
----
-
-Se quiser, posso ajustar para incluir outros detalhes, como deploy no Vercel ou uso de GitHub Pages.
